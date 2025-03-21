@@ -9,7 +9,7 @@ object Section01BasicDataTypes {
 
     // Return string variable
     fun task2(): Any {
-        return "Jordi"
+        return "asivquark"
     }
 
     // Return character variable
