@@ -19,17 +19,17 @@ object Section03NullableTypes {
     // Return the random phrase length or default phrase length when is null.
     // Use operator "safe calls" [?.] and elvis operator [?:] to check nullability
     fun task2(): Any {
-        val phrase = randomPhrase()
+        val maybeNullPhrase = randomPhrase()
 
-        return phrase?.length ?: USE_THIS_VALUE_TO_DEFAULT_LENGTH
+        return maybeNullPhrase?.length ?: USE_THIS_VALUE_TO_DEFAULT_LENGTH
     }
 
     // Return the random phrase in lowercase or default phrase lowercase when is null.
     // Use operator "safe calls" [?.] and elvis operator [?:] to check nullability
     fun task3(): Any {
-        val phrase = randomPhrase()
+        val maybeNullPhrase = randomPhrase()
 
-        return phrase?.lowercase() ?: USE_THIS_VALUE_TO_DEFAULT_PHRASE.lowercase()
+        return maybeNullPhrase?.lowercase() ?: USE_THIS_VALUE_TO_DEFAULT_PHRASE.lowercase()
     }
 
     private fun randomPhrase(): String? {
