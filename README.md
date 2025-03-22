@@ -119,7 +119,7 @@ Distributed under the APACHE License. See `LICENSE-2.0.txt` for more information
 
 ## Contact
 
-Jordi Jiménez Guil - cosmic.coding.community.club@gmail.com
+asivquark - asivquark@gmail.com
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Learning resources
